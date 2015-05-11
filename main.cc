@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 
 		else if (arg == "-startlevel"){
 			++i; // n (i.e. -startlevel n)
-			std::string t = (std::string)argv[i]; // temp string that stores the lebel number (n)
+			std::string t = (std::string)argv[i]; // temp string that stores the level number (n)
 			std::istringstream iss(t);
 			iss >> n; 
 		}
